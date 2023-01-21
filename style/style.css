@@ -50,8 +50,9 @@ main h2{
 
 
 main .afisha{
+    width: 33.33%;
     float: left;
-    padding: 60px;
+    padding: 10px;
 }
 
 main .dro{
@@ -63,25 +64,17 @@ main .dro{
 }
 
 
+p{
+    width: 33.3%;
+    
+    color: #C3C3C3;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
 
-main .tarigi{
-    color: #E7E7E7;
-    
-  
-    
 }
-
-main .text{
-    color: #E7E7E7;
-    
    
-}
 
-main .text2{
-    color: #E7E7E7;
-    margin: 60px;
-   
-}
 
 .xazi{
     border-bottom: 2px solid #C3C3C3;
