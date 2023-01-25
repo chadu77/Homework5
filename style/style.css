@@ -1,3 +1,6 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +18,9 @@ body{
 
 header h1 a{
     float: left;
-    margin-right: 500px;
-    margin-top: 38px;
+    margin-right: 430px;
+    margin-top: 6px;
+    padding: 20px;
     color: #E7E7E7;
     
    
@@ -30,15 +34,18 @@ header{
 
 header nav ul li{
    float: left;
-   padding: 38px 64px 40px 60px; 
+   padding: 32px 58px 34px 54px; 
 }
 
 header nav ul li a{
     font-size: 16px;
     color: #E7E7E7;
+    padding: 5px 10px;
 }
 
-
+.bld{
+    font-weight: bold ;
+}
 
 main h2{
     color: #FFFFFF;
@@ -49,28 +56,34 @@ main h2{
 }
 
 
-main .afisha{
-    width: 33.33%;
-    float: left;
-    padding: 10px;
+.bolo{
+    width: 678px;
 }
 
-main .dro{
+.bolo p:first-child{
+    margin-bottom: 20px;
+}
+
+.float{
+    float: left;
+}
+
+.pirveli{
+    margin-right: 132px;
+}
+
+.meore{
+    margin-right: 132px;
+}
+ 
+.samwertili::after{
+    content: "...";
+}
+
+.centri{
+    width: 1250px;
+    margin: 50px auto;
     color: #E7E7E7;
-    float: left;
-    margin-right: 130px;
-    margin: 30px;
-
-}
-
-
-p{
-    width: 33.3%;
-    
-    color: #C3C3C3;
-    float: left;
-    padding: 10px;
-    overflow: hidden;
 
 }
    
@@ -114,7 +127,156 @@ article .statiaimg img{
 article h2{
     font-size: 20px;
     margin: 50px 10px;
+    padding: 5px 10px;
 }
+
+
+
+
+
+
+/*------------ meore gverdi css-------- */
+
+.yuti{
+    width: 68%;
+    height: 700px;
+    float: left ;
+    padding-left: 60px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+
+
+
+.boxmeore{
+    width: 200px;
+    height: 270px;
+    
+}
+
+h3{
+   padding-left: 68px;
+    color: #FFFFFF;
+}
+
+
+.rigttext{
+    width: 272px;
+    height: 132px;
+    color: #FFFFFF;
+   float: right;
+    margin-top: 100px;
+    margin-right: 122px;
+    
+    
+
+}
+
+
+
+.knvrt {
+    
+    padding: 30px;
+    
+}
+
+.cvili{
+    padding: 30px;
+    
+}
+
+
+
+/* -----------    mesame        -------------- */
+
+   .mesameimg img{
+    width: 400px;
+    height: 540px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 90px;
+   }
+
+    .axlave{
+        float: left;
+        margin-top: 600px;
+        margin-left: 24px;
+    }
+
+    .yvitelo{
+        float: left;
+        margin-top: 90px;
+        margin-left: -200px;
+    }
+
+    .fasebi{
+        color: #FFFFFF;
+        float: left;
+        margin-top: 168px;
+        margin-left: -340px;
+    }
+
+    .wertilebi{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 210px;
+        margin-left: -190px;
+        background-color: #F6B058;
+        border-radius: 50%;
+    }
+
+    .wertilebi2{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 210px;
+        margin-left: -150px;
+        background-color: #3E93F6;
+        border-radius: 50%;
+
+    }
+
+    .wertilebi3{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 210px;
+        margin-left: -110px;
+        background-color: #E8E8E8;
+        border-radius: 50%;
+
+    }
+
+    .wertilebi4{
+        width: 20px;
+        height: 20px;
+        float: left;
+        margin-top: 210px;
+        margin-left: -70px;
+        background-color: #FF7070;
+        border-radius: 50%;
+        
+    }
+
+  
+    
+   
+
+
+
+
+
+
+
+
+
+
+/* ====================   footer     ================== */
 
 .gamyofi{
     border-top: 2px solid #C3C3C3;
@@ -127,19 +289,23 @@ footer img{
     padding: 20px;
 }
 
-footer .dasasruli{
+
+.tanabari{
+    width: 1318px;
+    margin: -78px auto;
     color: #E7E7E7;
-    float:right;
-    margin-right: 900px;
-    font-size: 30px;
-    
+ 
+
 }
 
-footer .dasasruli2{
-    color: #E7E7E7;
-    float:right;
-    margin-right: 900px;
-    margin-top: -40px;
-    font-size: 15px;
-    
+.dasasruli{
+    font-size: 26px;
 }
+
+.dasasruli2{
+    font-size: 18px;
+}
+
+
+
+
